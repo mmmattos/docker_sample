@@ -1,0 +1,29 @@
+{
+  "name": "docker-angular-tutum",
+  "version": "0.0.0",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "authors": [
+    "Miguel Miranda de Mattos"
+  ],
+  "license": "MIT",
+  "homepage": "http://mmattosinf.mmmattos.net/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "angular-bootstrap": "~0.13.3"
+  }
+}

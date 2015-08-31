@@ -1,0 +1,32 @@
+{
+  "name": "docker-angular-tutum",
+  "version": "1.0.0",
+  "description": "First try to setup angular with tutum using docker.",
+  "main": "index.js",
+  "private": true,
+  "author": "Miguel M. de Mattos",
+  "license": "ISC",
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmmattos/docker-angular-tutum.git"
+  },
+  "dependencies": {
+    "compression": "^1.5.2",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "karma": "^0.13.9",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.18"
+  }
+}
